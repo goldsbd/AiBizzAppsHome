@@ -26,7 +26,7 @@ const EnterpriseRisk = () => {
           <div className="mb-8">
             <div className="bg-card-gradient border border-white/10 rounded-lg p-4 overflow-hidden">
               <img
-                src="/assets/ERMDashboardSS.png"
+                src={`/assets/ERMDashboardSS.png?v=${new Date().getTime()}`}
                 alt="Enterprise Risk Management Dashboard"
                 className="w-full rounded-md shadow-lg"
               />
