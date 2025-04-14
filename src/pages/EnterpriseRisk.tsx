@@ -14,11 +14,11 @@ const EnterpriseRisk = () => {
           {/* Header */}
           <div className="mb-12">
             <div className="mb-6">
-              <h1 className="text-3xl md:text-4xl font-bold">Enterprise Risk Management</h1>
+              <h1 className="text-3xl md:text-4xl font-bold">Enterprise Risk Management - Coming Soon</h1>
             </div>
             
             <p className="text-white/70 w-full">
-              Centralized visibility across your organization with comprehensive risk assessment and monitoring tools for effective decision-making and regulatory compliance.
+              Centralized visibility across your Organization with comprehensive risk assessment + monitoring tools for effective decision-making & regulatory compliance.
             </p>
           </div>
           
