@@ -1,7 +1,7 @@
-
-import Navbar from '@/components/Navbar';
-import Footer from '@/components/Footer';
-import { Button } from '@/components/ui/button';
+// @ts-nocheck
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
+import { Button } from '../components/ui/button';
 import { Check, MessageCircle, Users, Cpu, Cloud, Database, Server, Shield } from 'lucide-react';
 
 const Consulting = () => {

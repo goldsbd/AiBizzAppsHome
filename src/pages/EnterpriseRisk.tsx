@@ -13,24 +13,24 @@ const EnterpriseRisk = () => {
         <div className="container-custom">
           {/* Header */}
           <div className="mb-12">
-            <div className="flex flex-wrap items-center justify-between gap-4 mb-6">
+            <div className="mb-6">
               <h1 className="text-3xl md:text-4xl font-bold">Enterprise Risk Management</h1>
-              
-              <div className="flex items-center gap-3">
-                <Button variant="outline" className="border-white/20 hover:bg-white/5 flex items-center gap-2">
-                  <Calendar size={16} />
-                  <span>Last 30 Days</span>
-                </Button>
-                <Button variant="outline" className="border-white/20 hover:bg-white/5 flex items-center gap-2">
-                  <FileBarChart2 size={16} />
-                  <span>Export</span>
-                </Button>
-              </div>
             </div>
             
-            <p className="text-white/70 max-w-2xl">
-              Centralized visibility across your organization with comprehensive risk assessment and monitoring.
+            <p className="text-white/70 w-full">
+              Centralized visibility across your organization with comprehensive risk assessment and monitoring tools for effective decision-making and regulatory compliance.
             </p>
+          </div>
+          
+          {/* Dashboard Screenshot */}
+          <div className="mb-8">
+            <div className="bg-card-gradient border border-white/10 rounded-lg p-4 overflow-hidden">
+              <img
+                src="/assets/ERMDashboardSS.png"
+                alt="Enterprise Risk Management Dashboard"
+                className="w-full rounded-md shadow-lg"
+              />
+            </div>
           </div>
           
           {/* Risk Cards Grid */}
