@@ -20,6 +20,26 @@ const ContractsChecker = () => {
             </p>
           </div>
           
+          {/* Screenshots Section */}
+          <div className="mb-12">
+            <div className="flex flex-col md:flex-row gap-6">
+              <div className="flex-1">
+                <img 
+                  src="/assets/HomePage.png" 
+                  alt="Contract Checker Home Page" 
+                  className="w-full h-auto rounded-lg border border-white/10 shadow-lg hover:shadow-xl transition-all"
+                />
+              </div>
+              <div className="flex-1">
+                <img 
+                  src="/assets/Collection.png" 
+                  alt="Contract Collection View" 
+                  className="w-full h-auto rounded-lg border border-white/10 shadow-lg hover:shadow-xl transition-all"
+                />
+              </div>
+            </div>
+          </div>
+          
           {/* Feature Overview */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
             <div className="bg-card-gradient border border-white/10 rounded-lg p-6 hover:card-glow transition-all">
