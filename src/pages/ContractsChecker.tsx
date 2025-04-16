@@ -25,14 +25,14 @@ const ContractsChecker = () => {
             <div className="flex flex-col md:flex-row gap-6">
               <div className="flex-1">
                 <img 
-                  src="/assets/HomePage.png" 
+                  src="assets/HomePage.png" 
                   alt="Contract Checker Home Page" 
                   className="w-full h-auto rounded-lg border border-white/10 shadow-lg hover:shadow-xl transition-all"
                 />
               </div>
               <div className="flex-1">
                 <img 
-                  src="/assets/Collection.png" 
+                  src="assets/Collection.png" 
                   alt="Contract Collection View" 
                   className="w-full h-auto rounded-lg border border-white/10 shadow-lg hover:shadow-xl transition-all"
                 />
